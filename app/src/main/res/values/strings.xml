@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Jetpack Compose Basics</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!--business card string resources-->
+    <string name="full_name">Serhat ERDEM</string>
+    <string name="title">Software Engineer at Projemya</string>
+    <string name="mail">serhaterdem@projemya.com</string>
+    <string name="phone_number">+90 (212) 345 12 21</string>
+    <string name="linkedin">\@serhaterdem</string>
+    <string name="address">221 B Baker Street</string>
+    <string name="title_activity_business_card">BusinessCard</string>
+    <!--compose quadrant card string resources-->
+    <string name="text_composable_title">Text composable</string>
+    <string name="text_composable_description">Displays text and follows the recommended Material Design guidelines.</string>
+    <string name="image_composable">Image composable</string>
+    <string name="image_composable_description">Creates a composable that lays out and draws a given Painter class object.</string>
+    <string name="row_composable_title">Row composable</string>
+    <string name="row_composable_description">A layout composable that places its children in a horizontal sequence.</string>
+    <string name="column_composable_title">Column composable</string>
+    <string name="column_composable_description">A layout composable that places its children in a vertical sequence.</string>
+    <!--task manager string resources-->
+    <string name="information_text">All tasks completed</string>
+    <string name="information_text2">Nice work!\n</string>
+    <!--article string resources-->
+    <string name="tutorial_title">Jetpack Compose tutorial</string>
+    <string name="tutorial_short">Jetpack Compose is a modern toolkit for building native Android UI. Compose simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs.</string>
+    <string name="tutorial_description">In this tutorial, you build a simple UI component with declarative functions. You call Compose functions to say what elements you want and the Compose compiler does the rest. Compose is built around Composable functions. These functions let you define your app\\\'s UI programmatically because they let you describe how it should look and provide data dependencies, rather than focus on the process of the UI\\\'s construction, such as initializing an element and then attaching it to a parent. To create a Composable function, you add the @Composable annotation to the function name.</string>
+    <!--birthday string resources-->
+    <string name="happy_birthday_sam">Happy Birthday Sam</string>
+    <string name="from_emma">From Emma</string>
+</resources>
