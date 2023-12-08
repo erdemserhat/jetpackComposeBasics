@@ -132,6 +132,7 @@ fun ContactInformationPrototype(
 
     }
 
+
 }
 
 @Composable
