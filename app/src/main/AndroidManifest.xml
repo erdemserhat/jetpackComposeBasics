@@ -13,6 +13,11 @@
         android:theme="@style/Theme.JetpackComposeBasics"
         tools:targetApi="31">
         <activity
+            android:name=".experienced.pathway1.quiz.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.JetpackComposeBasics" />
+        <activity
             android:name=".experienced.pathway1.messagecard.MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main"
