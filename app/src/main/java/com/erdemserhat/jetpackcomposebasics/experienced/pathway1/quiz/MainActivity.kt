@@ -10,9 +10,11 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.requiredSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.RadioButton
@@ -50,15 +52,24 @@ class MainActivity : ComponentActivity() {
 //To Preview
 @Preview(
     name = "Nigh Mode",
-    uiMode = UI_MODE_NIGHT_YES
+    uiMode = UI_MODE_NIGHT_YES,
+    widthDp = 600
 )
 @Preview(
     name = "Light Mode",
-    uiMode = UI_MODE_NIGHT_NO
+    uiMode = UI_MODE_NIGHT_NO,
+    widthDp = 600
 )
 @Composable
 fun QuestionPreview() {
-    QuestionScreen()
+    Surface(
+
+        color = MaterialTheme.colorScheme.secondary,
+        modifier = Modifier
+            .padding(horizontal = 23.dp, vertical = 23.dp),
+    ) {
+        QuestionScreen()
+    }
 
 }
 

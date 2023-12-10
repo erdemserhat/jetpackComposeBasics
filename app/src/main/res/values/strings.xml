@@ -8,6 +8,8 @@
     <string name="phone_number">+90 (212) 345 12 21</string>
     <string name="linkedin">\@serhaterdem</string>
     <string name="address">221 B Baker Street</string>
+    <string name="show_less">Show less</string>
+    <string name="show_more">Show more</string>
     <string name="title_activity_business_card">BusinessCard</string>
     <!--compose quadrant card string resources-->
     <string name="text_composable_title">Text composable</string>
