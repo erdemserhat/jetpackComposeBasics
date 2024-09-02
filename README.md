@@ -12,5 +12,5 @@ Bu repo, Jetpack Compose ile Android uygulama geliştirme konusunda bir şeyler 
 
 Bu repoyu, Jetpack Compose'un temellerini öğrenmek için oluşturdum. Her iki bölümdeki projeleri çözerek, Jetpack Compose ile ilgili bilgimi artırmaya çalıştım. Bu projeleri paylaşmamın amacı, öğrendiklerimi bir hatıra olarak saklamak ve bu süreçte neler başardığımı görmekti. Eğer siz de Jetpack Compose'u öğrenmek ya da mevcut bilginizi geliştirmek istiyorsanız, bu repo belki size de faydalı olabilir.
 
-### Jetpack Compose Temelleri Üzerinde Aldığım Kişisel Notarım
+### Jetpack Compose Temelleri Üzerinde Aldığım Kişisel Notlarım
 ...
